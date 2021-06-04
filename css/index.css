@@ -226,14 +226,43 @@ header {
 .middle-content .boxes .box {
   width: 12.5%;
   height: 100px;
-  background: black;
+  /* background: black; */
   margin: 20px 2.5%;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+.boxes div:last-child {
+  background: dodgerblue;
+}
+.boxes div:first-child {
+  background: teal;
+}
+.boxes div:nth-child(2) {
+  background: gold;
+}
+.boxes div:nth-child(3) {
+  background: cadetblue;
+}
+.boxes div:nth-child(4) {
+  background: coral;
+}
+.boxes div:nth-child(5) {
+  background: crimson;
+}
+.boxes div:nth-child(6) {
+  background: forestgreen;
+}
+.boxes div:nth-child(7) {
+  background: darkorchid;
+}
+.boxes div:nth-child(8) {
+  background: hotpink;
+}
+.boxes div:nth-child(9) {
+  background: indigo;
+}
 /* Bottom Content */
 
 .bottom-content {
@@ -267,4 +296,42 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+/* about page gallery */
+.masterGallery {
+  width: 800px;
+  /* display: flex; */
+  /* flex-direction: column;
+  flex-wrap: wrap; */
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+.gallery2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+.gallCells {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.gallCells img,
+h2,
+p {
+  padding: 5px 0;
+  margin: 0;
+}
+.gallCells button {
+  width: 35%;
+  padding: 2% 5%;
+  border-radius: 10px;
+  background-color: transparent;
 }
